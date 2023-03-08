@@ -4,7 +4,6 @@
   "description": "DESCRIPTION",
   "main": "build/main.js",
   "scripts": {
-    "postinstall": "electron-builder install-app-deps",
     "download-phaser-typedef": "download --out typings https://raw.githubusercontent.com/photonstorm/phaser/master/types/phaser.d.ts",
 
     "superclean": "rimraf .cache node_modules build dist public",
@@ -74,12 +73,10 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
     "javascript-obfuscator": "^2.13.0",
-    "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.10.3",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "rimraf": "^3.0.2",
-    "sass-loader": "^11.1.1",
     "style-loader": "^2.0.0",
     "ts-loader": "^9.2.2",
     "tslint": "^6.1.3",
